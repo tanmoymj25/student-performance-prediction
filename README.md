@@ -143,3 +143,63 @@ User Input
 Prediction
    ↓
 Visualization
+
+---
+
+## 📊 Model Evaluation
+
+| Model | R² Score | MAE | RMSE |
+|---|---:|---:|---:|
+| Linear Regression | 76.96% | 0.45 | 1.80 |
+| Decision Tree Regression | 54.44% | - | - |
+
+**Best Model: Linear Regression**
+
+---
+
+## 🚀 Streamlit Web Application
+
+The trained model is integrated into an interactive Streamlit web application.
+
+The application allows users to enter student information and displays:
+
+- Predicted Exam Score
+- Performance Category
+- Interactive Score Gauge
+- Benchmark Comparison
+- Prediction Profile
+- Model Performance Comparison
+
+**Live Demo:**  
+https://student-performance-prediction-7gmv5duershmnwjqinfyo.streamlit.app/
+
+---
+
+## 📁 Project Structure
+
+```text
+student-performance-prediction/
+│
+├── app.py
+├── model_training.py
+├── preprocessing.py
+├── data_analysis.py
+├── StudentPerformanceFactors.csv
+├── best_model.joblib
+├── preprocessor.joblib
+├── requirements.txt
+└── README.md
+
+---
+
+## 👨‍💻 Author
+
+**Tanmoy Majumder**
+
+GitHub: [@tanmoymj25](https://github.com/tanmoymj25)
+
+---
+
+## 📄 License
+
+This project is created for educational and learning purposes.
